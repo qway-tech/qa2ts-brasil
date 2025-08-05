@@ -1,0 +1,33 @@
+name: 💡 Sugestão Geral
+description: Contribua com ideias para melhorar o projeto QA2TS de forma geral.
+title: "💡 [Sugestão] Título da ideia"
+labels: [sugestao, comunidade]
+body:
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Descreva sua sugestão
+      placeholder: "Ex: Criar uma newsletter mensal com atualizações do projeto..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Qual impacto essa sugestão pode gerar?
+      placeholder: "Ex: Maior engajamento da comunidade, maior clareza nos processos..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de sugestão
+      options:
+        - Documentação
+        - Comunicação
+        - Organização da trilha
+        - Divulgação
+        - Outros
+    validations:
+      required: true

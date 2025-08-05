@@ -1,0 +1,47 @@
+name: 🧪 Nova Questão de Quiz
+description: Sugira uma nova questão para ser incluída nos quizzes de preparação.
+title: "🧪 [Quiz] Título ou tema da questão"
+labels: [quiz, sugestao, conteudo]
+body:
+  - type: textarea
+    id: pergunta
+    attributes:
+      label: Pergunta
+      placeholder: "Ex: Qual das opções abaixo melhor descreve testes exploratórios?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas
+      description: Liste todas as opções, destacando qual é a correta.
+      placeholder: |
+        A) Testes baseados em scripts formais  
+        B) Testes sem documentação prévia (✅ correta)  
+        C) Testes de regressão automatizados  
+        D) Testes feitos por desenvolvedores
+    validations:
+      required: true
+
+  - type: textarea
+    id: justificativa
+    attributes:
+      label: Justificativa para a resposta correta
+      placeholder: "Explicação técnica que valida a alternativa correta..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: modulo
+    attributes:
+      label: Para qual módulo esta pergunta se aplica?
+      options:
+        - Fundamentos de Testes
+        - Planejamento e Estratégia
+        - Execução e Análise
+        - Automação de Testes
+        - Testes Não Funcionais
+        - Outros
+    validations:
+      required: true

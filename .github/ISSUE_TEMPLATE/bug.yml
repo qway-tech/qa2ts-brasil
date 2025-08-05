@@ -1,0 +1,28 @@
+name: 🐞 Relato de Bug ou Erro
+description: Informe problemas encontrados em conteúdo, scripts ou automações.
+title: "🐞 [Bug] Descreva o problema"
+labels: [bug, correcao]
+body:
+  - type: input
+    id: local
+    attributes:
+      label: Onde o erro ocorreu?
+      placeholder: "Ex: README.md, Módulo 2, script de correção, etc"
+    validations:
+      required: true
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição do problema
+      placeholder: "Explique o que está errado, o que deveria acontecer e o que está acontecendo."
+    validations:
+      required: true
+
+  - type: textarea
+    id: print
+    attributes:
+      label: Captura de tela ou exemplo (opcional)
+      placeholder: "Cole aqui qualquer informação adicional útil, como trechos de código, prints ou logs."
+    validations:
+      required: false

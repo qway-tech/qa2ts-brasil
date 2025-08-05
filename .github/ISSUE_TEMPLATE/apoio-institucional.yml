@@ -1,0 +1,53 @@
+name: "🏢 Apoio Institucional"
+description: "Solicitação para incluir uma empresa ou instituição como apoiadora do projeto QA₂TS-Brasil."
+title: "🏢 [Apoio Institucional] Nome da Instituição"
+labels: ["apoio", "institucional"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por apoiar a iniciativa **QA₂TS-Brasil**!  
+        Preencha as informações abaixo para análise e inclusão na seção de instituições apoiadoras da Wiki.
+
+  - type: input
+    id: nome
+    attributes:
+      label: "🏷 Nome da Instituição"
+      placeholder: "Ex: QWay"
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: "🔗 Link do Site ou Página Oficial"
+      placeholder: "https://www.exemplo.com.br"
+    validations:
+      required: true
+
+  - type: input
+    id: logotipo
+    attributes:
+      label: "🖼 URL do Logotipo (de preferência hospedado no GitHub)"
+      placeholder: "https://github.com/user/repo/assets/logo.png"
+    validations:
+      required: true
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: "📝 Descrição da Instituição"
+      description: "Breve apresentação (1 a 3 linhas)."
+      placeholder: "Ex: Comunidade global de QA e Testes de Software. Oferece cursos, mentorias e eventos para profissionais da área."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: autorizacao
+    attributes:
+      label: "📢 Confirmações"
+      options:
+        - label: "Autorizo o uso do logotipo e nome da instituição na Wiki e nas páginas oficiais do projeto QA₂TS-Brasil."
+          required: true

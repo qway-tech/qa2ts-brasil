@@ -1,0 +1,58 @@
+name: "🙋 Candidatura de Colaborador"
+description: "Candidate-se para participar como Membro Temporário do QA2TS-Brasil"
+title: "🙋 [Candidatura] Nome – Papel"
+labels: [candidatura, governanca]
+body:
+  - type: input
+    id: nome
+    attributes:
+      label: "Seu nome completo"
+      placeholder: "Fulano da Silva"
+    validations:
+      required: true
+
+  - type: input
+    id: github
+    attributes:
+      label: "Seu usuário no GitHub"
+      placeholder: "@seuusuario"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tipo-membro
+    attributes:
+      label: "Tipo de Membro"
+      options:
+        - Membro Temporário
+        - Sugestão de Membro Honorário
+        - Outro (descrever abaixo)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: papeis
+    attributes:
+      label: "Papéis que você deseja exercer"
+      options:
+        - label: "✍️ Curador(a) de Conteúdo Técnico"
+        - label: "🔎 Revisor(a) de Avaliações"
+        - label: "🧪 Criador(a) de Quizzes e Simulados"
+        - label: "⚙️ Desenvolvedor(a) de Ferramentas"
+        - label: "💬 Suporte e Mentoria"
+        - label: "📢 Comunicação e Divulgação"
+        - label: "🧭 Governança"
+
+  - type: textarea
+    id: motivacao
+    attributes:
+      label: "Por que você quer participar?"
+      description: "Conte um pouco sobre sua motivação e como pretende contribuir."
+    validations:
+      required: true
+
+  - type: textarea
+    id: experiencia
+    attributes:
+      label: "Experiências ou habilidades relevantes"
+      description: "Você não precisa ser especialista, mas pode contar o que já fez relacionado a QA, ensino, código, etc."
