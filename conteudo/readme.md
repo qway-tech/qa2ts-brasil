@@ -10,15 +10,15 @@ Este diretório reúne todos os conteúdos pedagógicos do projeto **QA₂TS –
 Contém todas as trilhas formativas oferecidas pelo projeto, organizadas por tema e nível. Cada trilha é composta por módulos (`m01`, `m02`...) e capítulos (`c01`, `c02`...), seguindo uma progressão lógica e didática.
 
 **Exemplo:**
-
+```text
 trilhas/
 └── t01/        // Trilha de Formação equivalente aos níveis que reúnem as principais certificações do mercado.
-    └── m01/      // Módulo equivalente à cursos ou às principais certificações, avaliado por uma prova  e por revisão de membros credenciados para a emissão de uma certificação.
-        ├── c01/    // Capítulos que compõe o módulo, equivalentes à divisão de um Syllabus de uma certificação, avaliados por Quizzes.
+    └── m01/    // Módulo equivalente a cursos ou às principais certificações, avaliado por uma prova e por revisão técnica.
+        ├── c01/  // Capítulos que compõem o módulo, equivalentes à divisão de um Syllabus, avaliados por quizzes.
         ├── c02/
         ├── c03/
-        ├── ...
-        └────── cXX/
+        └── cXX/
+```
 
 > 📌 Cada capítulo pode conter: conteúdo teórico, quiz em formato JSON e links para materiais complementares.
 
