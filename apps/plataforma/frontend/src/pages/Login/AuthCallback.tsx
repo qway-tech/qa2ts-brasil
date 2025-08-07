@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "@/context/useAuth";
+import { useAuth } from "@/context/useAuth.ts";
 
 export default function AuthCallback() {
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { useAuth } from "@/context/useAuth";
+import { useAuth } from "@/context/useAuth.ts";
 import ProfileMenu from "./ProfileMenu";
 import logo from "@/assets/qa2ts_logo_horizontal_amarelo.png";
 
