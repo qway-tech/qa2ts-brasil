@@ -12,9 +12,9 @@ Contém todas as trilhas formativas oferecidas pelo projeto, organizadas por tem
 **Exemplo:**
 ```text
 trilhas/
-└── t01/        // Trilha de Formação equivalente aos níveis que reúnem as principais certificações do mercado.
-    └── m01/    // Módulo equivalente a cursos ou às principais certificações, avaliado por uma prova e por revisão técnica.
-        ├── c01/  // Capítulos que compõem o módulo, equivalentes à divisão de um Syllabus, avaliados por quizzes.
+└── t01/            // Trilha de Formação equivalente aos níveis que reúnem as principais certificações do mercado.
+    └── m01/        // Módulo equivalente a cursos ou às principais certificações, avaliado por uma prova e por revisão técnica.
+        ├── c01/    // Capítulos que compõem o módulo, equivalentes à divisão de um Syllabus, avaliados por quizzes.
         ├── c02/
         ├── c03/
         └── cXX/
