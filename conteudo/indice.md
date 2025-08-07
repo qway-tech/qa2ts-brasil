@@ -8,7 +8,7 @@ Este índice reúne todas as trilhas, seus respectivos módulos e capítulos dis
 
 ## 📘 Trilha de Fundamentos
 
-### 📗 Módulo M01 – Introdução, Fundamentos e Boas Práticas
+### 📗 Módulo – Introdução, Fundamentos e Boas Práticas
 
 | Capítulo                                                                      | Link                                                  |
 |-------------------------------------------------------------------------------|-------------------------------------------------------|
