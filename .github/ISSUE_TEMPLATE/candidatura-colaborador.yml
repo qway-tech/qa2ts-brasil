@@ -25,6 +25,7 @@ body:
       label: "Tipo de Membro"
       options:
         - Membro Temporário
+        - Voluntário
         - Sugestão de Membro Honorário
         - Outro (descrever abaixo)
     validations:
